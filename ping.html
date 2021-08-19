@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Challenge2</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="ping.css">
+        <link rel="stylesheet" href="./fontawesome-free-5.15.4-web/css/all.min.css">
+    </head>
+    <header class="my-header">
+        <img class="logo" src="./images/logo.svg">
+        <h1 class="launching">we are launching <span>soon!</span></h1>
+    </header>
+    <body>
+        <section class="description"></section>
+            <p class="subscribe">subscribe and get notified</p>
+        </section>
+        <div class="diviniput">
+        <form class="myform" name="form1" action="#">
+        
+        <div class="formdiv">
+            <div class="container-formdiv">
+            <input type="email" id="email" name="text1" placeholder="your email address...">
+            <p id="mymessage"></p>
+            
+        </div>
+    </div>
+        <div class="p-message">
+            <button type="submit" class="submit" onclick="ValidateEmail(document.form1.text1)">Notify Me!</button>      
+        </div>
+        </form>
+    </div>
+        
+        <figure class="my-img">
+            <img class="dashboard" src="./images/illustration-dashboard.png">
+        </figure>
+        
+        <script src="main.js"></script>
+    </body>
+    <footer class="my-footer">
+    <div class="my-fontawesome">
+        <div id="facebook"><i class="fab fa-facebook-f"></i></div>
+        <div id="twitter"><i class="fab fa-twitter"></i></div>
+        <div id="instagram"><i class="fab fa-instagram"></i></div>
+    </div>
+        <p class="right"><i class="far fa-copyright"></i>Copyrights Ping.all Right Reserved</p>
+    </footer>
+</html>
